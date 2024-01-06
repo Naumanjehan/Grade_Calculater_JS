@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Grade and Percentage Calculater</title>
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-3 bg-white pt-3 rounded-top rounded-bottom wrapper-top">
+                <p class="h2 text-center">Grade Calculater</p>
+                <form action="#" class="g-calculate">
+                    <div class="input-group mb-4">
+                        <label class="input-group-text "><i class="fa-brands fa-html5"></i></label>
+                        <input  type="number" class="form-control" placeholder="Enter Your HTML Marks" id="html">
+                    </div>
+                    <div class="input-group mb-4">
+                        <label class="input-group-text "><i class="fa-brands fa-css3"></i></label>
+                        <input type="number" class="form-control" placeholder="Enter your CSS Marks" id="css">
+                    </div>
+                    <div class="input-group mb-4">
+                        <label class="input-group-text "><i class="fa-brands fa-js"></i></label>
+                        <input type="number" class="form-control" placeholder="Enter Your JS Marks" id="js">
+                    </div>
+                    <div class="input-group mb-4">
+                        <label class="input-group-text "><i class="fa-brands fa-bootstrap"></i></label>
+                        <input type="number" class="form-control" placeholder="Enter Your bootstrap Marks" id="bs">
+                    </div>
+                    <div class="d-grid pt-3">
+                        <button class="btn btn-success" type="submit"id="hassanBtn" onclick="calculate()">Calculate Now</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-3 bg-white pt-3 rounded-top rounded-bottom wrapper-buttom">
+                <fieldset disabled="disabled">
+                    <form action="#">
+                    <div class="d-grid">    
+                        <button class="btn btn-primary" type="submit">Your Result Card<i class="fa-solid fa-arrow-turn-down arrow"></i></button>
+                    </div><br>
+                    
+                    <div class="input-group mb-3">
+                        <label class="input-group-text"><i class="fa-brands fa-html5"></i></label>
+                        <input type="number" class="form-control" id="output-html">
+                    </div>
+                    
+                    <div class="input-group mb-3">
+                        <label class="input-group-text"><i class="fa-brands fa-css3"></i></label>
+                        <input type="number" class="form-control" id="output-css">
+                    </div>
+                    
+                    <div class="input-group mb-3">
+                        <label class="input-group-text"><i class="fa-brands fa-js"></i></label>
+                        <input type="number" class="form-control" id="output-js">
+                    </div>
+                    
+                    <div class="input-group mb-3">
+                        <label class="input-group-text"><i class="fa-brands fa-bootstrap"></i></label>
+                        <input type="number" class="form-control" id="output-bs">
+                    </div>
+                
+                    <div class="input-group mb-3">
+                        <label class="input-group-text">Obtained Marks</label>
+                        <input type="number" class="form-control" id="obtain">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <label class="input-group-text">Percentage</label>
+                        <input type="text" class="form-control" id="per">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text">Grade</label>
+                        <input type="text" class="form-control" id="grade">
+                    </div>
+                </form>
+                </fieldset>
+            </div>
+            <div class="col-lg-2">
+            </div>
+        </div>
+    </div>
+    <SCript src="js/bootstrap.bundle.min.js"></SCript>
+    <script src="/index.js"></script>
+</body>
+</html>
